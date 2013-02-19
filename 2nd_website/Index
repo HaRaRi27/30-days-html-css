@@ -1,0 +1,70 @@
+<!doctype html>
+<html xmlns="http://www.w3.org/1999/html">
+
+<head>
+    <title>Simple Web Page</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css"/>
+</head>
+
+<body>
+<div class="wrap">
+    <h1>Sasha Lazar Simple Web Page</h1>
+
+    <div class="navbar">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="" f="#">About</a></li>
+            <li><a href="" f="#">Portfolio</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </div>
+
+    <div class="content">
+        <h2> Main Content Heading</h2>
+
+        <p> Я знаю, что об этом говорит весь мир, но всё же повторяю это в 3 раза громче: музыка должна быть красивой и
+            эмоциональной. Любая музыка без красоты для меня лишь пустой шум. </p>
+        <h4>Fill Out This Form:</h4>
+        <!-- FORMS. action- tells where to post. on current page or somewhere else -->
+        <form action="#" method="get">
+            <!-- input create text form. type-submit-knopka SUBMIT so znacheniem Value-GO or whatever u want.
+             Esli xochesh, chto bi sam Label - nazvanie bilo aktivnim - pishesh dlia chego exmpl-fro name i polju pridaesh tozhe znachenie exmpl - name
+             -->
+            <ul>
+                <li>
+                    <label for="name">Enter Your Name:</label>
+                    <input id="name" name="name"></input>
+                </li>
+
+                <li>
+                    <label for="Comments">Your Comment:</label>
+                    <textarea id="comments" name="comments"></textarea>
+                </li>
+
+                <li><input type="submit" value="GO"/></li>
+                <li><label for="css">Do You Like CSS?</label>
+                    <input id="css" type="checkbox">yes</input>
+
+            </ul>
+        </form>
+
+    </div>
+    <aside>
+        <h2>Sidebar</h2>
+        <ul>
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+    </aside>
+
+</div>
+</body>
+</html>

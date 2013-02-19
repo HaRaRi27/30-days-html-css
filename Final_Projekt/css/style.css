@@ -1,0 +1,117 @@
+.container_24 {
+    margin-top: 10px;
+}
+
+/* =banner */
+.banner {
+    background: url(../images/smyle_bckgrnd.jpg) no-repeat;
+    width: 695px;
+    height: 300px;
+}
+
+.callout {
+    height: 300px;
+    background: gray;
+}
+
+/* =header */
+header {
+    overflow: hidden;
+}
+
+header h1 {
+    background: url(../images/sasha_lazar_logo.png) no-repeat;
+    width: 334px;
+    height: 57px;
+    text-indent: -9999px;
+    float: left;
+    margin: 10px 10px 22px;
+}
+
+/* =navigation */
+nav {
+    float: right;
+    padding-top: 52px;
+}
+
+nav li {
+    display: inline;
+}
+
+/* =miscellaneous */
+a {
+    color: #7e7e7e;
+    text-decoration: none;
+}
+
+li {
+    margin-left: 24px;
+}
+
+
+a:hover, .selected { /*class selected making first li HOME always black*/
+    color: black;
+}
+
+nav a {
+    text-transform: lowercase;
+}
+
+blockquote, blockquote p {
+    font-size: 15px;
+    line-height: 20px;
+    font-style: italic;
+}
+
+blockquote {
+    position: relative;
+    }
+
+
+/*=main section*/
+
+.main {
+    margin-top: 20px;
+}
+
+
+.main blockquote p {
+    padding-left: 30px;
+}
+
+.main blockquote p:before, blockquote p:after {
+    font-size: 45px;
+    color: #bfbfbf;
+}
+
+.main blockquote p:first-child:before {
+    content: '"';
+    position: absolute;
+    top: 7px;
+    left: 0px;
+
+    }
+
+.main blockquote p:last-child:after {
+    content: '"';
+    float: right;
+    position: absolute;
+    bottom: -7px;
+    right: 0;
+}
+
+.button {
+    background: #242324;
+    padding: 6px;
+}
+
+.button:hover {
+    color: white;
+}
+
+footer {
+    clear: both;
+}
+
+
+
